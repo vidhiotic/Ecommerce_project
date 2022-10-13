@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SleniumFramework" class="navigator-link">
+              <span class="suite-name border-passed">SleniumFramework</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SleniumFramework" class="navigator-link ">
+                    <span>C:\Users\kcs\eclipse-workspace\SeleniumFramework\Testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SleniumFramework" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SleniumFramework" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SleniumFramework" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SleniumFramework" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SleniumFramework" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SleniumFramework" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SleniumFramework" class="hide-methods passed suite-SleniumFramework"> (hide)</a> <!-- hide-methods passed suite-SleniumFramework -->
+                      <a href="#" panel-name="suite-SleniumFramework" class="show-methods passed suite-SleniumFramework"> (show)</a> <!-- show-methods passed suite-SleniumFramework -->
+                    </span>
+                    <div class="method-list-content passed suite-SleniumFramework">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.LoginTest" class="method navigator-link" hash-for-method="LoginTestStarted">LoginTestStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.NewsletterTest" class="method navigator-link" hash-for-method="Newsletter_Test">Newsletter_Test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.SummerDressesTest" class="method navigator-link" hash-for-method="SummerDressesTestStarted">SummerDressesTestStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.Verify_SortingTest" class="method navigator-link" hash-for-method="Verify_SortingTestStarted">Verify_SortingTestStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.CheckoutTest" class="method navigator-link" hash-for-method="checkoutTestStarted">checkoutTestStarted</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.AccountcreateTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.AccountcreateTest" class="method navigator-link" hash-for-method="createNewAccount(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, ...)">createNewAccount(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.CheckoutTest" class="method navigator-link" hash-for-method="endtoendTest(2, M)">endtoendTest(2, M)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.CheckoutTest" class="method navigator-link" hash-for-method="login(ram9090@gmail.com, 12345)">login(ram9090@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.SummerDressesTest" class="method navigator-link" hash-for-method="login(ram9090@gmail.com, 12345)">login(ram9090@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.LoginTest" class="method navigator-link" hash-for-method="loginDetails(ram9090@gmail.com, 12345)">loginDetails(ram9090@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.CheckoutTest" class="method navigator-link" hash-for-method="order_confirmation">order_confirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.Verify_SortingTest" class="method navigator-link" hash-for-method="verify(ram9090@gmail.com, 12345)">verify(ram9090@gmail.com, 12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SleniumFramework" title="com.ecommerce.testCases.IndexTest" class="method navigator-link" hash-for-method="verify_indexPage">verify_indexPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SleniumFramework -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SleniumFramework" class="panel SleniumFramework">
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.IndexTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_indexPage">
+                  </a> <!-- verify_indexPage -->
+                  <span class="method-name">verify_indexPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.SummerDressesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SummerDressesTestStarted">
+                  </a> <!-- SummerDressesTestStarted -->
+                  <span class="method-name">SummerDressesTestStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(ram9090@gmail.com, 12345)">
+                  </a> <!-- login(ram9090@gmail.com, 12345) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(ram9090@gmail.com, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.Verify_SortingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_SortingTestStarted">
+                  </a> <!-- Verify_SortingTestStarted -->
+                  <span class="method-name">Verify_SortingTestStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify(ram9090@gmail.com, 12345)">
+                  </a> <!-- verify(ram9090@gmail.com, 12345) -->
+                  <span class="method-name">verify</span>
+                  <span class="parameters">(ram9090@gmail.com, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.NewsletterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Newsletter_Test">
+                  </a> <!-- Newsletter_Test -->
+                  <span class="method-name">Newsletter_Test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.AccountcreateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewAccount(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, ...)">
+                  </a> <!-- createNewAccount(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, ...) -->
+                  <span class="method-name">createNewAccount</span>
+                  <span class="parameters">(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, 8489875678)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTestStarted">
+                  </a> <!-- LoginTestStarted -->
+                  <span class="method-name">LoginTestStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDetails(ram9090@gmail.com, 12345)">
+                  </a> <!-- loginDetails(ram9090@gmail.com, 12345) -->
+                  <span class="method-name">loginDetails</span>
+                  <span class="parameters">(ram9090@gmail.com, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+          <div class="suite-SleniumFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ecommerce.testCases.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutTestStarted">
+                  </a> <!-- checkoutTestStarted -->
+                  <span class="method-name">checkoutTestStarted</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="endtoendTest(2, M)">
+                  </a> <!-- endtoendTest(2, M) -->
+                  <span class="method-name">endtoendTest</span>
+                  <span class="parameters">(2, M)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(ram9090@gmail.com, 12345)">
+                  </a> <!-- login(ram9090@gmail.com, 12345) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(ram9090@gmail.com, 12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_confirmation">
+                  </a> <!-- order_confirmation -->
+                  <span class="method-name">order_confirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SleniumFramework-class-passed -->
+        </div> <!-- panel SleniumFramework -->
+        <div panel-name="test-xml-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\kcs\eclipse-workspace\SeleniumFramework\Testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SleniumFramework&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ecommerce test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.AccountcreateTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.IndexTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.NewsletterTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.SummerDressesTest&quot;/&gt;
+      &lt;class name=&quot;com.ecommerce.testCases.Verify_SortingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ecommerce test --&gt;
+&lt;/suite&gt; &lt;!-- SleniumFramework --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SleniumFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ecommerce test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SleniumFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SleniumFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SleniumFramework');
+function tableData_SleniumFramework() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'login')
+data.setCell(0, 2, 'com.ecommerce.testCases.SummerDressesTest')
+data.setCell(0, 3, 17405);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify')
+data.setCell(1, 2, 'com.ecommerce.testCases.Verify_SortingTest')
+data.setCell(1, 3, 14808);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'com.ecommerce.testCases.CheckoutTest')
+data.setCell(2, 3, 13813);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'endtoendTest')
+data.setCell(3, 2, 'com.ecommerce.testCases.CheckoutTest')
+data.setCell(3, 3, 12691);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createNewAccount')
+data.setCell(4, 2, 'com.ecommerce.testCases.AccountcreateTest')
+data.setCell(4, 3, 8190);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginDetails')
+data.setCell(5, 2, 'com.ecommerce.testCases.LoginTest')
+data.setCell(5, 3, 4984);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'order_confirmation')
+data.setCell(6, 2, 'com.ecommerce.testCases.CheckoutTest')
+data.setCell(6, 3, 4289);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAccount')
+data.setCell(7, 2, 'com.ecommerce.testCases.AccountcreateTest')
+data.setCell(7, 3, 3315);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Newsletter_Test')
+data.setCell(8, 2, 'com.ecommerce.testCases.NewsletterTest')
+data.setCell(8, 3, 3224);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_indexPage')
+data.setCell(9, 2, 'com.ecommerce.testCases.IndexTest')
+data.setCell(9, 3, 2474);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'LoginTestStarted')
+data.setCell(10, 2, 'com.ecommerce.testCases.LoginTest')
+data.setCell(10, 3, 4);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Verify_SortingTestStarted')
+data.setCell(11, 2, 'com.ecommerce.testCases.Verify_SortingTest')
+data.setCell(11, 3, 3);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'SummerDressesTestStarted')
+data.setCell(12, 2, 'com.ecommerce.testCases.SummerDressesTest')
+data.setCell(12, 3, 3);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkoutTestStarted')
+data.setCell(13, 2, 'com.ecommerce.testCases.CheckoutTest')
+data.setCell(13, 3, 3);
+window.suiteTableData['SleniumFramework']= { tableData: data, tableDiv: 'times-div-SleniumFramework'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SleniumFramework">
+              </div> <!-- times-div-SleniumFramework -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SleniumFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SleniumFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.AccountcreateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createAccount</span>
+                <span class="method-start">25237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewAccount(Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, ...)</span>
+                <span class="method-start">33961 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">42154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">43570 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkoutTestStarted</span>
+                <span class="method-start">65983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(ram9090@gmail.com, 12345)</span>
+                <span class="method-start">66658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">endtoendTest(2, M)</span>
+                <span class="method-start">80641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">order_confirmation</span>
+                <span class="method-start">93337 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">97627 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.IndexTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">98972 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verify_indexPage</span>
+                <span class="method-start">110614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">113094 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">114538 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginTestStarted</span>
+                <span class="method-start">126584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDetails(ram9090@gmail.com, 12345)</span>
+                <span class="method-start">126759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">131750 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.NewsletterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">132562 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Newsletter_Test</span>
+                <span class="method-start">145776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">149002 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.SummerDressesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">149798 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">SummerDressesTestStarted</span>
+                <span class="method-start">162534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(ram9090@gmail.com, 12345)</span>
+                <span class="method-start">162720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">180126 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ecommerce.testCases.Verify_SortingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">180959 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_SortingTestStarted</span>
+                <span class="method-start">195158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify(ram9090@gmail.com, 12345)</span>
+                <span class="method-start">195386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">210195 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

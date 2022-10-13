@@ -1,0 +1,65 @@
+2022-10-13 10:07:35,712 [main] INFO Ecommerce - -----------------------AccountCreateTest started-------------------
+2022-10-13 10:07:35,717 [main] INFO Ecommerce - URL is opened
+2022-10-13 10:07:38,148 [main] INFO Ecommerce - Signin clicked
+2022-10-13 10:07:38,726 [main] INFO Ecommerce - Email Button Clicked
+2022-10-13 10:07:39,019 [main] INFO Ecommerce - Random email generated
+2022-10-13 10:07:44,425 [main] INFO Ecommerce - Data is fetched from the excel
+2022-10-13 10:07:44,435 [main] INFO Ecommerce - New account creation start
+2022-10-13 10:07:52,616 [main] INFO Ecommerce - New account created
+2022-10-13 10:07:52,616 [main] INFO Ecommerce - After account creation page is verified
+2022-10-13 10:07:52,617 [main] INFO Ecommerce - --------------------AccountCreateTest ended------------------
+2022-10-13 10:08:16,452 [main] INFO Ecommerce - -----------------Checkout case started-----------------
+2022-10-13 10:08:17,123 [main] INFO Ecommerce - Data is fetched from the excel
+2022-10-13 10:08:19,816 [main] INFO Ecommerce - Sign in is clicked
+2022-10-13 10:08:24,146 [main] INFO Ecommerce - Successfully signed in
+2022-10-13 10:08:24,214 [main] INFO Ecommerce - Looged in page verified
+2022-10-13 10:08:24,216 [main] INFO Ecommerce - -----------------LoginTest Ended----------------
+2022-10-13 10:08:30,938 [main] INFO Ecommerce - women clickedd
+2022-10-13 10:08:31,107 [main] INFO Ecommerce - getproduct data fetched
+2022-10-13 10:08:31,309 [main] INFO Ecommerce - Quantity is entered
+2022-10-13 10:08:31,523 [main] INFO Ecommerce - Size is entered
+2022-10-13 10:08:31,715 [main] INFO Ecommerce - Add to cart is clicked
+2022-10-13 10:08:38,823 [main] INFO Ecommerce - Checkout is clicked
+2022-10-13 10:08:40,538 [main] INFO Ecommerce - proceed is clicked
+2022-10-13 10:08:42,175 [main] INFO Ecommerce - Address is selected
+2022-10-13 10:08:43,797 [main] INFO Ecommerce - Terms are clicked
+2022-10-13 10:08:43,798 [main] INFO Ecommerce - proceed is clicked
+2022-10-13 10:08:45,339 [main] INFO Ecommerce - payments methood  is selected
+2022-10-13 10:08:48,054 [main] INFO Ecommerce - Order is confirmed
+2022-10-13 10:08:48,092 [main] INFO Ecommerce - Order confirmation is verified
+2022-10-13 10:08:48,092 [main] INFO Ecommerce - ---------------------CheckoutTest ended----------------
+2022-10-13 10:09:01,082 [main] INFO Ecommerce - ------------------------IndexTest started-----------------
+2022-10-13 10:09:01,084 [main] INFO Ecommerce - URL is opened
+2022-10-13 10:09:01,150 [main] INFO Ecommerce - Search box is verified
+2022-10-13 10:09:03,553 [main] INFO Ecommerce - Signin clicked
+2022-10-13 10:09:03,554 [main] INFO Ecommerce - ----------------- IndexTest ended-------------------
+2022-10-13 10:09:17,053 [main] INFO Ecommerce - ---------------LoginTest case started--------------
+2022-10-13 10:09:17,225 [main] INFO Ecommerce - Data is fetched from the excel
+2022-10-13 10:09:17,227 [main] INFO Ecommerce - URL opened for logindetails
+2022-10-13 10:09:19,370 [main] INFO Ecommerce - Signin clicked
+2022-10-13 10:09:22,141 [main] INFO Ecommerce - Credentials entered
+2022-10-13 10:09:22,209 [main] INFO Ecommerce - Looged in page verified
+2022-10-13 10:09:22,210 [main] INFO Ecommerce - ----------------LoginTest Ended----------------
+2022-10-13 10:09:36,246 [main] INFO Ecommerce - ------------------NewsLetterTest started---------------
+2022-10-13 10:09:36,247 [main] INFO Ecommerce - URL is opened
+2022-10-13 10:09:36,340 [main] INFO Ecommerce - Newsletter field is verified
+2022-10-13 10:09:36,548 [main] INFO Ecommerce - Random email entered
+2022-10-13 10:09:39,435 [main] INFO Ecommerce - Submit button clicked
+2022-10-13 10:09:39,466 [main] INFO Ecommerce - -----------------NewsLetterTest ended-------------------
+2022-10-13 10:09:53,003 [main] INFO Ecommerce - -----------------SummerDressesTest case started----------------
+2022-10-13 10:09:53,186 [main] INFO Ecommerce - Data is fetched from the excel
+2022-10-13 10:09:56,248 [main] INFO Ecommerce - Sign in is clicked
+2022-10-13 10:09:59,204 [main] INFO Ecommerce - Successfully signed in
+2022-10-13 10:09:59,282 [main] INFO Ecommerce - Logged in page verified
+2022-10-13 10:10:10,286 [main] INFO Ecommerce - women clickedd
+2022-10-13 10:10:10,457 [main] INFO Ecommerce - Filters on summerdress page are verified
+2022-10-13 10:10:10,592 [main] INFO Ecommerce - -----------------SummerDressesTest case ended-----------------
+2022-10-13 10:10:25,626 [main] INFO Ecommerce - ------------------Verify_SortingTest case started------------------
+2022-10-13 10:10:25,853 [main] INFO Ecommerce - Data is fetched from the excel
+2022-10-13 10:10:28,284 [main] INFO Ecommerce - Sign in is clicked
+2022-10-13 10:10:31,416 [main] INFO Ecommerce - Successfully signed in
+2022-10-13 10:10:31,478 [main] INFO Ecommerce - Logged in page verified
+2022-10-13 10:10:39,979 [main] INFO Ecommerce - women clickedd
+2022-10-13 10:10:40,490 [main] INFO Ecommerce - sorting applied
+2022-10-13 10:10:40,660 [main] ERROR Ecommerce - Sorting is broken on this page.Hence verified
+2022-10-13 10:10:40,661 [main] INFO Ecommerce - -----------------Verify_SortingTest case ended------------------

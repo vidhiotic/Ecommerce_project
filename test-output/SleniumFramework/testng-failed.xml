@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SleniumFramework]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ecommerce test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ecommerce.testCases.CheckoutTest">
+        <methods>
+          <include name="endtoendTest" invocation-numbers="0"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ecommerce.testCases.CheckoutTest -->
+    </classes>
+  </test> <!-- ecommerce test(failed) -->
+</suite> <!-- Failed suite [SleniumFramework] -->

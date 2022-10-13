@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>TestNG:  ecommerce test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ecommerce test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 13 10:07:10 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>211 seconds (211023 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ecommerce.testCases.LoginTest.LoginTestStarted()'><b>LoginTestStarted</b><br>Test class: com.ecommerce.testCases.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.testCases.LoginTest@3e84448c</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.NewsletterTest.Newsletter_Test()'><b>Newsletter_Test</b><br>Test class: com.ecommerce.testCases.NewsletterTest</td>
+<td></td>
+<td>3</td>
+<td>com.ecommerce.testCases.NewsletterTest@4a7f959b</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.SummerDressesTest.SummerDressesTestStarted()'><b>SummerDressesTestStarted</b><br>Test class: com.ecommerce.testCases.SummerDressesTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.testCases.SummerDressesTest@429bffaa</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.Verify_SortingTest.Verify_SortingTestStarted()'><b>Verify_SortingTestStarted</b><br>Test class: com.ecommerce.testCases.Verify_SortingTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.testCases.Verify_SortingTest@5403f35f</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.CheckoutTest.checkoutTestStarted()'><b>checkoutTestStarted</b><br>Test class: com.ecommerce.testCases.CheckoutTest</td>
+<td></td>
+<td>0</td>
+<td>com.ecommerce.testCases.CheckoutTest@10d307f1</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.AccountcreateTest.createAccount()'><b>createAccount</b><br>Test class: com.ecommerce.testCases.AccountcreateTest</td>
+<td></td>
+<td>3</td>
+<td>com.ecommerce.testCases.AccountcreateTest@49c7b90e</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.AccountcreateTest.createNewAccount()'><b>createNewAccount</b><br>Test class: com.ecommerce.testCases.AccountcreateTest<br>Parameters: Mrs, TestUser, UserTest, hgsdtyf, 22, 7, 1985, ABCDEF, EDFG123, San, Alabama, 91436, United States, 8489875678</td>
+<td></td>
+<td>8</td>
+<td>com.ecommerce.testCases.AccountcreateTest@49c7b90e</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.CheckoutTest.endtoendTest()'><b>endtoendTest</b><br>Test class: com.ecommerce.testCases.CheckoutTest<br>Parameters: 2, M</td>
+<td></td>
+<td>12</td>
+<td>com.ecommerce.testCases.CheckoutTest@10d307f1</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.CheckoutTest.login()'><b>login</b><br>Test class: com.ecommerce.testCases.CheckoutTest<br>Parameters: ram9090@gmail.com, 12345</td>
+<td></td>
+<td>13</td>
+<td>com.ecommerce.testCases.CheckoutTest@10d307f1</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.SummerDressesTest.login()'><b>login</b><br>Test class: com.ecommerce.testCases.SummerDressesTest<br>Parameters: ram9090@gmail.com, 12345</td>
+<td></td>
+<td>17</td>
+<td>com.ecommerce.testCases.SummerDressesTest@429bffaa</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.LoginTest.loginDetails()'><b>loginDetails</b><br>Test class: com.ecommerce.testCases.LoginTest<br>Parameters: ram9090@gmail.com, 12345</td>
+<td></td>
+<td>4</td>
+<td>com.ecommerce.testCases.LoginTest@3e84448c</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.CheckoutTest.order_confirmation()'><b>order_confirmation</b><br>Test class: com.ecommerce.testCases.CheckoutTest</td>
+<td></td>
+<td>4</td>
+<td>com.ecommerce.testCases.CheckoutTest@10d307f1</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.Verify_SortingTest.verify()'><b>verify</b><br>Test class: com.ecommerce.testCases.Verify_SortingTest<br>Parameters: ram9090@gmail.com, 12345</td>
+<td></td>
+<td>14</td>
+<td>com.ecommerce.testCases.Verify_SortingTest@5403f35f</td></tr>
+<tr>
+<td title='com.ecommerce.testCases.IndexTest.verify_indexPage()'><b>verify_indexPage</b><br>Test class: com.ecommerce.testCases.IndexTest</td>
+<td></td>
+<td>2</td>
+<td>com.ecommerce.testCases.IndexTest@4d5b6aac</td></tr>
+</table><p>
+</body>
+</html>
